@@ -1,0 +1,61 @@
+---
+layout: default
+body_class: "home-template user"
+---
+{% include header.html %}
+
+<div class="container">
+  {% for post in paginator.posts %}
+  <article class="post">
+
+    {% if post.image %}
+    <div class="image">
+      <a href="{{ post.url | prepend: site.baseurl }}">
+        <amp-img
+          src="{{ post.image.path }}"
+          width="{{ post.image.width }}"
+          height="{{ post.image.height }}"
+          layout="responsive">
+        </amp-img>
+      </a>
+    </div>
+    {% endif %}
+
+    <div class="meta">
+      <time datetime="{{ post.date | date: '%Y-%m-%d' }}">
+        {% assign m = post.date | date: "%-m" %}
+        {{ post.date | date: "%-d" }}
+        {% case m %}
+          {% when '1' %}Januar
+          {% when '2' %}Februar
+          {% when '3' %}März
+          {% when '4' %}April
+          {% when '5' %}Mai
+          {% when '6' %}Juni
+          {% when '7' %}Juli
+          {% when '8' %}August
+          {% when '9' %}September
+          {% when '10' %}Oktober
+          {% when '11' %}November
+          {% when '12' %}Dezember
+        {% endcase %}
+        {{ post.date | date: "%Y" }}
+      </time>
+    </div>
+
+    <header>
+      <h1><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h1>
+    </header>
+
+    <div class="text">
+      <p>{{ post.excerpt }}</p>
+      <a href="{{ post.url | prepend: site.baseurl }}" class="readmore">Weiterlesen</a>
+    </div>
+  </article>
+  {% endfor %}
+</div>
+
+
+{% include pagination.html %}
+
+{% include footer.html %}
