@@ -10,11 +10,11 @@ image:
 ---
 
 Mit Hilfe von künstlicher Intelligenz ist es mittlerweile möglich die
-eigenen Urlaubfotos in ein Van Gogh, Picasso oder Monet zu
+eigenen Urlaubsfotos in ein Van Gogh, Picasso oder Monet zu
 verwandeln. Durch die App „Prisma“ wurde diese Technologie bereits
 Millionen von Nutzern zuteil und intensiv genutzt. Doch mit der
 Technologie kann man noch viel mehr machen. In diesem Artikel zeige
-ich wie ich ohne viel Ahnung von Desgin oder Kunst einfache
+ich wie ich ohne viel Ahnung von Design oder Kunst einfache
 Illustration erstellen kann.
 
 Die Idee hinter den sogenannten Style Transformierern ist es aus einen
