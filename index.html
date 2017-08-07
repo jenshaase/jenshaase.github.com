@@ -5,23 +5,20 @@ body_class: "home-template user"
 {% include header.html %}
 
 <div class="container">
-  {% for post in paginator.posts %}
   <article class="post">
 
-    {% if post.image %}
     <div class="image">
-      <a href="{{ post.url | prepend: site.baseurl }}">
+      <a href="/images/preview.jpg">
         <amp-img
-          src="{{ post.image.path }}"
-          width="{{ post.image.width }}"
-          height="{{ post.image.height }}"
+          src="/images/preview.jpg"
+          width="700px"
+          height="468"
           layout="responsive">
         </amp-img>
       </a>
     </div>
-    {% endif %}
 
-    <div class="meta">
+    <!--<div class="meta">
       <time datetime="{{ post.date | date: '%Y-%m-%d' }}">
         {% assign m = post.date | date: "%-m" %}
         {{ post.date | date: "%-d" }}
@@ -41,18 +38,21 @@ body_class: "home-template user"
         {% endcase %}
         {{ post.date | date: "%Y" }}
       </time>
-    </div>
+    </div>-->
 
     <header>
-      <h1><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h1>
+      <h1>Work in progress...</h1>
     </header>
 
     <div class="text">
+      <p>aktuelle Information auf <a href="https://instagram.com/jenshaase">Instagram</a></p>
+    </div>
+
+    <!--<div class="text">
       <p>{{ post.excerpt }}</p>
       <a href="{{ post.url | prepend: site.baseurl }}" class="readmore">Weiterlesen</a>
-    </div>
+    </div>-->
   </article>
-  {% endfor %}
 </div>
 
 

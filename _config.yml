@@ -14,13 +14,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Jens Haase - Machine Learning Experte
+title: Jens Haase - Weekend Bike Traveller
 email: jens@jenshaase.com
 description: >
-  Ich glaube das Künstliche Intelligenz unsere Welt stark verändert.
-  Dieser Blog ist über meine wöchentlichen Erfahrungen, Erfolge und
-  Misserfolge im Bereich Machine Learning, Deep Learning und
-  künstlicher Intelligenz.
+  Samstag morgen: Raus auf Rad und los gehts zum nächsten Abenteuer.
 baseurl: ""
 url: "http://jenshaase.com" # the base hostname & protocol for your site
 twitter_username: jenshaase
