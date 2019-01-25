@@ -10,6 +10,7 @@
         class="preview-img-item"
         v-bind:src="src.placeholder" 
         v-bind:srcSet="srcSet" 
+        v-bind:sizes="sizes"
         v-on="enlarge ? { click: () => $photoswipe.open(photoswipeGroup, photoswipeIndex) } : {}"
         itemprop="thumbnail" 
         v-bind:alt="title" />
@@ -54,7 +55,8 @@ export default {
 
     data () {
         return {
-            photoswipeIndex: -1
+            photoswipeIndex: -1,
+            sizes: "(min-width: 768px) 50vw, 100vw"
         }
     },
 

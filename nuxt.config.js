@@ -69,7 +69,7 @@ module.exports = {
         test: /\.(jpe?g|png)$/i,
         loader: 'responsive-loader',
         options: {
-          sizes: [300, 600, 1200, 2000],
+          sizes: [300, 600, 1200],
           placeholder: true,
           placeholderSize: 50,
           name: 'img/[name]-[width]-[hash:7].[ext]',
