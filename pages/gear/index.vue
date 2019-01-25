@@ -47,6 +47,12 @@ export default {
     ArticleHeader,
     TextModule,
     Story
+  },
+
+  head () {
+    return {
+      title: 'Tales - Bikepacking adventures by Jens Haase'
+    }
   }
 };
 </script>

@@ -218,6 +218,12 @@ export default {
   components: {
     TextModule,
     ArticleHeader
+  },
+
+  head () {
+    return {
+      title: 'Data protection'
+    }
   }
 };
 </script>

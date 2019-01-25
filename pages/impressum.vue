@@ -38,6 +38,12 @@ export default {
   components: {
     TextModule,
     ArticleHeader
+  },
+
+  head () {
+    return {
+      title: 'Legal Disclosure'
+    }
   }
 };
 </script>

@@ -1,6 +1,6 @@
 <template>
   <div class="page">
-    <article-header title="Tales of the road" subtitle="Bikepacking adventures by Jens Haase"></article-header>
+    <article-header :title="title" :subtitle="subtitle"></article-header>
     <full-image-module v-bind:src="require('./img/me.jpg')" v-bind:ratioWidth="16" v-bind:ratioHeight="9" title="Sonnenuntergang in Castletownbere"></full-image-module>
 
     <text-module>
@@ -64,6 +64,23 @@ export default {
     ArticleHeader,
     TextModule,
     Story
+  },
+
+  data () {
+    return {
+      title: 'Tales of the road',
+      subtitle: 'Bikepacking adventures by Jens Haase',
+      description: 'Hi, my name is Jens Haase and this is my personal blog about bikepacking and bike touring. Here, I will write down about the adventures I made along my way.'
+    }
+  },
+
+  head () {
+    return {
+      title: this.title + ' - ' + this.subtitle,
+      meta: [
+        { hid: 'description', name: 'description', content: this.description }
+      ]
+    }
   }
 };
 </script>
