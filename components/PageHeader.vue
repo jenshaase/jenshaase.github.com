@@ -2,11 +2,11 @@
   <div class="navigation">
     <div class="container">
       <nav class="navbar navbar-expand-md navbar-light">
-        <a class="navbar-brand d-md-none" href="#">
+        <router-link to="/" class="nav-link">
           <svg class="navbar__logo" aria-hidden="true">
             <use xlink:href="#logo"></use>
           </svg>
-        </a>
+        </router-link>
         <button class="navbar-toggler" type="button" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" v-on:click="onToggleNavbar">
           <span class="navbar-toggler-icon"></span>
         </button>
