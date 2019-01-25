@@ -2,7 +2,7 @@
   <div class="navigation">
     <div class="container">
       <nav class="navbar navbar-expand-md navbar-light">
-        <router-link to="/" class="nav-link">
+        <router-link to="/" class="navbar-brand d-md-none">
           <svg class="navbar__logo" aria-hidden="true">
             <use xlink:href="#logo"></use>
           </svg>
