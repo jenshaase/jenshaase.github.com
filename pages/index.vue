@@ -69,9 +69,16 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import "~assets/scss/variables";
+@import "~bootstrap/scss/_functions.scss";
+@import "~bootstrap/scss/_variables.scss";
+@import "~bootstrap/scss/mixins";
+
 .page {
   .story {
-    margin-bottom: 0;
+    @include media-breakpoint-up(md) {
+      margin-bottom: 0;
+    }
   }
 }
 </style>
