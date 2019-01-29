@@ -1,20 +1,19 @@
 <template>
   <div class="module container--image image-grid">
-    <slot></slot>
+    <slot />
   </div>
 </template>
 
 <script>
-
 export default {
-    name: 'ImageModule',
+  name: 'ImageModule'
 }
 </script>
 
 <style lang="scss" scoped>
-@import "~bootstrap/scss/_functions.scss";
-@import "~bootstrap/scss/_variables.scss";
-@import "~bootstrap/scss/mixins";
+@import '~bootstrap/scss/_functions.scss';
+@import '~bootstrap/scss/_variables.scss';
+@import '~bootstrap/scss/mixins';
 
 .container--image {
   $grid-breakpoints: (
@@ -31,7 +30,7 @@ export default {
     lg: 840px,
     xl: 840px
   );
-    
+
   @include make-container();
   @include make-container-max-widths($container-max-widths, $grid-breakpoints);
 

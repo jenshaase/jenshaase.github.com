@@ -1,20 +1,19 @@
 <template>
   <div class="page">
     <article-header
-       :title="title"
-       :subtitle="subtitle">
-    </article-header>
+      :title="title"
+      :subtitle="subtitle"
+    />
 
-    <full-image-module v-bind:src="require('./img/valentia-island-2.jpg')" v-bind:ratioWidth="16" v-bind:ratioHeight="9" title="Der Hafen von Kinsale"></full-image-module>
+    <full-image-module :src="require('./img/valentia-island-2.jpg')" :ratio-width="16" :ratio-height="9" title="Der Hafen von Kinsale" />
 
     <text-module>
       <p>{{ description }}</p>
     </text-module>
 
-    <article-header title="Irish beaches" subtitle="Little irish beaches appear out of nowwhere" type="h2"></article-header>
+    <article-header title="Irish beaches" subtitle="Little irish beaches appear out of nowwhere" type="h2" />
 
     <text-module>
-
       <p>
         The first days started with a lot of little small and some bigger beaches along the southern coastline. 
         Even though I noticed them when I was planning my route, they were a big surprise since I wasn't expecting so many beautiful little beaches all over.
@@ -31,19 +30,19 @@
 
     <image-module>
       <image-module-row>
-        <image-module-image v-bind:src="require('./img/strand/small-strand-1.jpg')" v-bind:ratioWidth="3" v-bind:ratioHeight="2" title="Small beach right on the Wild Altantic Way" />
+        <image-module-image :src="require('./img/strand/small-strand-1.jpg')" :ratio-width="3" :ratio-height="2" title="Small beach right on the Wild Altantic Way" />
       </image-module-row>
       <image-module-row>
-        <image-module-image v-bind:src="require('./img/strand/ballybunion-beach-1.jpg')" v-bind:ratioWidth="3" v-bind:ratioHeight="2" title="Kleiner Strand direkt am Wild Altantic Way" />
-        <image-module-image v-bind:src="require('./img/strand/bike-3.jpg')" v-bind:ratioWidth="2" v-bind:ratioHeight="3" title="Kleiner Strand direkt am Wild Altantic Way" />
+        <image-module-image :src="require('./img/strand/ballybunion-beach-1.jpg')" :ratio-width="3" :ratio-height="2" title="Kleiner Strand direkt am Wild Altantic Way" />
+        <image-module-image :src="require('./img/strand/bike-3.jpg')" :ratio-width="2" :ratio-height="3" title="Kleiner Strand direkt am Wild Altantic Way" />
       </image-module-row>
       <image-module-row>
-        <image-module-image v-bind:src="require('./img/strand/the-long-strand-1.jpg')" v-bind:ratioWidth="2" v-bind:ratioHeight="3" title="Kleiner Strand direkt am Wild Altantic Way" />
-        <image-module-image v-bind:src="require('./img/strand/red-strand-1.jpg')" v-bind:ratioWidth="3" v-bind:ratioHeight="2" title="Kleiner Strand direkt am Wild Altantic Way" />
+        <image-module-image :src="require('./img/strand/the-long-strand-1.jpg')" :ratio-width="2" :ratio-height="3" title="Kleiner Strand direkt am Wild Altantic Way" />
+        <image-module-image :src="require('./img/strand/red-strand-1.jpg')" :ratio-width="3" :ratio-height="2" title="Kleiner Strand direkt am Wild Altantic Way" />
       </image-module-row>
     </image-module>
 
-    <article-header title="Irish cliffs" subtitle="Riding along the edges of a cliff" type="h2"></article-header>
+    <article-header title="Irish cliffs" subtitle="Riding along the edges of a cliff" type="h2" />
 
     <text-module>
       <p>
@@ -61,39 +60,39 @@
 
     <image-module>
       <image-module-row>
-        <image-module-image v-bind:src="require('./img/cliff/southernmost-point-2.jpg')" v-bind:ratioWidth="3" v-bind:ratioHeight="2" title="Small beach right on the Wild Altantic Way" />
+        <image-module-image :src="require('./img/cliff/southernmost-point-2.jpg')" :ratio-width="3" :ratio-height="2" title="Small beach right on the Wild Altantic Way" />
       </image-module-row>
       <image-module-row>
-        <image-module-image v-bind:src="require('./img/cliff/southernmost-point-1.jpg')" v-bind:ratioWidth="2" v-bind:ratioHeight="3" title="Small beach right on the Wild Altantic Way" />
-        <image-module-image v-bind:src="require('./img/cliff/southernmost-point-4.jpg')" v-bind:ratioWidth="3" v-bind:ratioHeight="2" title="Small beach right on the Wild Altantic Way" />
-        <image-module-image v-bind:src="require('./img/cliff/southernmost-point-3.jpg')" v-bind:ratioWidth="2" v-bind:ratioHeight="3" title="Small beach right on the Wild Altantic Way" />
+        <image-module-image :src="require('./img/cliff/southernmost-point-1.jpg')" :ratio-width="2" :ratio-height="3" title="Small beach right on the Wild Altantic Way" />
+        <image-module-image :src="require('./img/cliff/southernmost-point-4.jpg')" :ratio-width="3" :ratio-height="2" title="Small beach right on the Wild Altantic Way" />
+        <image-module-image :src="require('./img/cliff/southernmost-point-3.jpg')" :ratio-width="2" :ratio-height="3" title="Small beach right on the Wild Altantic Way" />
       </image-module-row>
       <!-- <image-module-row>
         <image-module-image v-bind:src="require('./img/cliff/moher-5.jpg')" v-bind:ratioWidth="16" v-bind:ratioHeight="9" title="Small beach right on the Wild Altantic Way" />
       </image-module-row> -->
       <image-module-row>
         <!-- <image-module-image v-bind:src="require('./img/cliff/kerry-cliffs-1.jpg')" v-bind:ratioWidth="3" v-bind:ratioHeight="2" title="Small beach right on the Wild Altantic Way" /> -->
-        <image-module-image v-bind:src="require('./img/cliff/kerry-cliffs-3.jpg')" v-bind:ratioWidth="3" v-bind:ratioHeight="2" title="Small beach right on the Wild Altantic Way" />
-        <image-module-image v-bind:src="require('./img/bike-2.jpg')" v-bind:ratioWidth="2" v-bind:ratioHeight="3" title="Small beach right on the Wild Altantic Way" />
-        <image-module-image v-bind:src="require('./img/cliff/kerry-cliffs-2.jpg')" v-bind:ratioWidth="3" v-bind:ratioHeight="2" title="Small beach right on the Wild Altantic Way" />
+        <image-module-image :src="require('./img/cliff/kerry-cliffs-3.jpg')" :ratio-width="3" :ratio-height="2" title="Small beach right on the Wild Altantic Way" />
+        <image-module-image :src="require('./img/bike-2.jpg')" :ratio-width="2" :ratio-height="3" title="Small beach right on the Wild Altantic Way" />
+        <image-module-image :src="require('./img/cliff/kerry-cliffs-2.jpg')" :ratio-width="3" :ratio-height="2" title="Small beach right on the Wild Altantic Way" />
       </image-module-row>
       
       <image-module-row>
         <!-- <image-module-image v-bind:src="require('./img/cliff/slea-head-1.jpg')" v-bind:ratioWidth="2" v-bind:ratioHeight="3" title="Small beach right on the Wild Altantic Way" /> -->
-        <image-module-image v-bind:src="require('./img/cliff/slea-head-2.jpg')" v-bind:ratioWidth="3" v-bind:ratioHeight="2" title="Small beach right on the Wild Altantic Way" />
-        <image-module-image v-bind:src="require('./img/cliff/slea-head-3.jpg')" v-bind:ratioWidth="3" v-bind:ratioHeight="2" title="Small beach right on the Wild Altantic Way" />
+        <image-module-image :src="require('./img/cliff/slea-head-2.jpg')" :ratio-width="3" :ratio-height="2" title="Small beach right on the Wild Altantic Way" />
+        <image-module-image :src="require('./img/cliff/slea-head-3.jpg')" :ratio-width="3" :ratio-height="2" title="Small beach right on the Wild Altantic Way" />
       </image-module-row>
       <image-module-row>
-        <image-module-image v-bind:src="require('./img/bike-4.jpg')" v-bind:ratioWidth="2" v-bind:ratioHeight="3" title="Small beach right on the Wild Altantic Way" />
-        <image-module-image v-bind:src="require('./img/cliff/ballybunion-1.jpg')" v-bind:ratioWidth="3" v-bind:ratioHeight="2" title="Small beach right on the Wild Altantic Way" />
-        <image-module-image v-bind:src="require('./img/cliff/ballybunion-2.jpg')" v-bind:ratioWidth="2" v-bind:ratioHeight="3" title="Small beach right on the Wild Altantic Way" />
+        <image-module-image :src="require('./img/bike-4.jpg')" :ratio-width="2" :ratio-height="3" title="Small beach right on the Wild Altantic Way" />
+        <image-module-image :src="require('./img/cliff/ballybunion-1.jpg')" :ratio-width="3" :ratio-height="2" title="Small beach right on the Wild Altantic Way" />
+        <image-module-image :src="require('./img/cliff/ballybunion-2.jpg')" :ratio-width="2" :ratio-height="3" title="Small beach right on the Wild Altantic Way" />
         <!-- <image-module-image v-bind:src="require('./img/cliff/ballybunion-3.jpg')" v-bind:ratioWidth="2" v-bind:ratioHeight="3" title="Small beach right on the Wild Altantic Way" /> -->
       </image-module-row>
       <image-module-row>
-        <image-module-image v-bind:src="require('./img/cliff/moher-1.jpg')" v-bind:ratioWidth="3" v-bind:ratioHeight="2" title="Small beach right on the Wild Altantic Way" />
+        <image-module-image :src="require('./img/cliff/moher-1.jpg')" :ratio-width="3" :ratio-height="2" title="Small beach right on the Wild Altantic Way" />
         <!-- <image-module-image v-bind:src="require('./img/cliff/moher-2.jpg')" v-bind:ratioWidth="2" v-bind:ratioHeight="3" title="Small beach right on the Wild Altantic Way" /> -->
-        <image-module-image v-bind:src="require('./img/cliff/moher-3.jpg')" v-bind:ratioWidth="3" v-bind:ratioHeight="2" title="Small beach right on the Wild Altantic Way" />
-        <image-module-image v-bind:src="require('./img/cliff/moher-4.jpg')" v-bind:ratioWidth="3" v-bind:ratioHeight="2" title="Small beach right on the Wild Altantic Way" />
+        <image-module-image :src="require('./img/cliff/moher-3.jpg')" :ratio-width="3" :ratio-height="2" title="Small beach right on the Wild Altantic Way" />
+        <image-module-image :src="require('./img/cliff/moher-4.jpg')" :ratio-width="3" :ratio-height="2" title="Small beach right on the Wild Altantic Way" />
       </image-module-row>
       <!-- <image-module-row>
         <image-module-image v-bind:src="require('./img/cliff/sheap-head-1.jpg')" v-bind:ratioWidth="2" v-bind:ratioHeight="3" title="Small beach right on the Wild Altantic Way" />
@@ -104,7 +103,7 @@
 
     
 
-    <article-header title="Irish towns and people" subtitle="" type="h2"></article-header>
+    <article-header title="Irish towns and people" subtitle="" type="h2" />
 
     <text-module>
       <p>
@@ -115,98 +114,94 @@
 
     <image-module>
       <image-module-row>
-        <image-module-image v-bind:src="require('./img/town/kinsale-straße-1.jpg')" v-bind:ratioWidth="3" v-bind:ratioHeight="4" title="Small beach right on the Wild Altantic Way" />
-        <image-module-image v-bind:src="require('./img/town/kinsale-hafen.jpg')" v-bind:ratioWidth="3" v-bind:ratioHeight="2" title="Small beach right on the Wild Altantic Way" />
-        <image-module-image v-bind:src="require('./img/town/kinsale-straße-2.jpg')" v-bind:ratioWidth="3" v-bind:ratioHeight="4" title="Small beach right on the Wild Altantic Way" />
+        <image-module-image :src="require('./img/town/kinsale-straße-1.jpg')" :ratio-width="3" :ratio-height="4" title="Small beach right on the Wild Altantic Way" />
+        <image-module-image :src="require('./img/town/kinsale-hafen.jpg')" :ratio-width="3" :ratio-height="2" title="Small beach right on the Wild Altantic Way" />
+        <image-module-image :src="require('./img/town/kinsale-straße-2.jpg')" :ratio-width="3" :ratio-height="4" title="Small beach right on the Wild Altantic Way" />
       </image-module-row>
       <image-module-row>
-        <image-module-image v-bind:src="require('./img/town/kenmare-1.jpg')" v-bind:ratioWidth="3" v-bind:ratioHeight="2" title="Small beach right on the Wild Altantic Way" />
-        <image-module-image v-bind:src="require('./img/town/kenmare-2.jpg')" v-bind:ratioWidth="3" v-bind:ratioHeight="4" title="Small beach right on the Wild Altantic Way" />
+        <image-module-image :src="require('./img/town/kenmare-1.jpg')" :ratio-width="3" :ratio-height="2" title="Small beach right on the Wild Altantic Way" />
+        <image-module-image :src="require('./img/town/kenmare-2.jpg')" :ratio-width="3" :ratio-height="4" title="Small beach right on the Wild Altantic Way" />
       </image-module-row>
     </image-module>
 
-    <article-header title="Route in detail" subtitle="All my recorded GPS tracks (missing rest days)" type="h2"></article-header>
+    <article-header title="Route in detail" subtitle="All my recorded GPS tracks (missing rest days)" type="h2" />
 
     <div class="module container">
       <div class="row">
         <div class="col-md-6">
-          <MapModule v-bind:gpxData="require('./maps/01-welcome-to-ireland.gpx')" headline="Day 1: Welcome to Ireland"></MapModule>
+          <MapModule :gpx-data="require('./maps/01-welcome-to-ireland.gpx')" headline="Day 1: Welcome to Ireland" />
         </div>
         <div class="col-md-6">
-          <MapModule v-bind:gpxData="require('./maps/02-from-kinsale-to-skibbereen.gpx')" headline="Day 2: From Kinsale to Skibbereen"></MapModule>
+          <MapModule :gpx-data="require('./maps/02-from-kinsale-to-skibbereen.gpx')" headline="Day 2: From Kinsale to Skibbereen" />
         </div>
-        <div class="w-100"></div>
+        <div class="w-100" />
         <div class="col-md-6">
-          <MapModule v-bind:gpxData="require('./maps/03-from-skibbereen-to-kilcrohane.gpx')" headline="Day 3: From Skibbereen to Kilcrohane"></MapModule>
-        </div>
-        <div class="col-md-6">
-          <MapModule v-bind:gpxData="require('./maps/04-from-kilcrohane-to-castletownbere.gpx')" headline="Day 4: From Kilcrohane to Castletownbere"></MapModule>
-        </div>
-        <div class="w-100"></div>
-        <div class="col-md-6">
-          <MapModule v-bind:gpxData="require('./maps/05-from-castletownbere-to-kenmare.gpx')" headline="Day 5: From Castletownbere to Kenmare"></MapModule>
+          <MapModule :gpx-data="require('./maps/03-from-skibbereen-to-kilcrohane.gpx')" headline="Day 3: From Skibbereen to Kilcrohane" />
         </div>
         <div class="col-md-6">
-          <MapModule v-bind:gpxData="require('./maps/07-from-kenmare-to-valentia-island.gpx')" headline="Day 7: From Kenmare to Valentia Island"></MapModule>
+          <MapModule :gpx-data="require('./maps/04-from-kilcrohane-to-castletownbere.gpx')" headline="Day 4: From Kilcrohane to Castletownbere" />
         </div>
-        <div class="w-100"></div>
+        <div class="w-100" />
         <div class="col-md-6">
-          <MapModule v-bind:gpxData="require('./maps/08-from-valentia-island-to-kenmare.gpx')" headline="Day 8: From Valentia Island to Kenmare"></MapModule>
-        </div>
-        <div class="col-md-6">
-          <MapModule v-bind:gpxData="require('./maps/09-from-kenmare-to-dingle.gpx')" headline="Day 9: From Kenmare to Dingle"></MapModule>
-        </div>
-        <div class="w-100"></div>
-        <div class="col-md-6">
-          <MapModule v-bind:gpxData="require('./maps/10-from-dingle-to-ballybunion.gpx')" headline="Day 10: From Dingle to Ballybunion"></MapModule>
+          <MapModule :gpx-data="require('./maps/05-from-castletownbere-to-kenmare.gpx')" headline="Day 5: From Castletownbere to Kenmare" />
         </div>
         <div class="col-md-6">
-          <MapModule v-bind:gpxData="require('./maps/11-from-ballybunion-to-doolin.gpx')" headline="Day 11: From Ballybunion to Doolin"></MapModule>
+          <MapModule :gpx-data="require('./maps/07-from-kenmare-to-valentia-island.gpx')" headline="Day 7: From Kenmare to Valentia Island" />
         </div>
-        <div class="w-100"></div>
+        <div class="w-100" />
         <div class="col-md-6">
-          <MapModule v-bind:gpxData="require('./maps/13-from-doolin-to-galway.gpx')" headline="Day 13: From Doolin to Galway"></MapModule>
+          <MapModule :gpx-data="require('./maps/08-from-valentia-island-to-kenmare.gpx')" headline="Day 8: From Valentia Island to Kenmare" />
         </div>
         <div class="col-md-6">
+          <MapModule :gpx-data="require('./maps/09-from-kenmare-to-dingle.gpx')" headline="Day 9: From Kenmare to Dingle" />
         </div>
+        <div class="w-100" />
+        <div class="col-md-6">
+          <MapModule :gpx-data="require('./maps/10-from-dingle-to-ballybunion.gpx')" headline="Day 10: From Dingle to Ballybunion" />
+        </div>
+        <div class="col-md-6">
+          <MapModule :gpx-data="require('./maps/11-from-ballybunion-to-doolin.gpx')" headline="Day 11: From Ballybunion to Doolin" />
+        </div>
+        <div class="w-100" />
+        <div class="col-md-6">
+          <MapModule :gpx-data="require('./maps/13-from-doolin-to-galway.gpx')" headline="Day 13: From Doolin to Galway" />
+        </div>
+        <div class="col-md-6" />
       </div>
     </div>
   </div>
 </template>
 
 <script>
-import ImageModule from "~/components/ImageModule.vue";
-import ImageModuleRow from "~/components/ImageModuleRow.vue";
-import ImageModuleImage from "~/components/ImageModuleImage.vue";
-import AspectImage from "~/components/AspectImage.vue";
-import FullImageModule from "~/components/FullImageModule.vue";
-import MapModule from "~/components/MapModule.vue";
-import PageHeader from "~/components/PageHeader.vue";
-import ArticleHeader from "~/components/ArticleHeader.vue";
-import TextModule from "~/components/TextModule.vue";
+import ImageModule from '~/components/ImageModule.vue'
+import ImageModuleRow from '~/components/ImageModuleRow.vue'
+import ImageModuleImage from '~/components/ImageModuleImage.vue'
+import FullImageModule from '~/components/FullImageModule.vue'
+import MapModule from '~/components/MapModule.vue'
+import ArticleHeader from '~/components/ArticleHeader.vue'
+import TextModule from '~/components/TextModule.vue'
 
 export default {
   components: {
     ImageModule,
     ImageModuleRow,
     ImageModuleImage,
-    AspectImage,
     FullImageModule,
     MapModule,
-    PageHeader,
     ArticleHeader,
     TextModule
   },
 
-  data () {
+  data() {
     return {
       title: 'Wild Atlantic Way',
       subtitle: 'Two weeks of cycling along the Irish coastline',
-      description: 'Ever since my first trip to Ireland, I dreamed of cycling along the wild Irish coast with my bicycle moving from one B&B to the next. Therefore, in 2018 I put my stuff together, got a flight to Dublin and started my 1000 km adventure from Cork to Galway.'
+      description:
+        'Ever since my first trip to Ireland, I dreamed of cycling along the wild Irish coast with my bicycle moving from one B&B to the next. Therefore, in 2018 I put my stuff together, got a flight to Dublin and started my 1000 km adventure from Cork to Galway.'
     }
   },
 
-  head () {
+  head() {
     return {
       title: this.title + ' - ' + this.subtitle,
       meta: [
@@ -214,7 +209,7 @@ export default {
       ]
     }
   }
-};
+}
 </script>
 
 <style lang="scss" scoped>

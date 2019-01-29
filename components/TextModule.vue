@@ -1,20 +1,20 @@
 <template>
   <div class="module text-module container--text">
-    <slot></slot>
+    <slot />
   </div>
 </template>
 
 <script>
 export default {
-    name: 'TextModule',
+  name: 'TextModule'
 }
 </script>
 
 <style lang="scss" scoped>
-@import "~bootstrap/scss/_functions.scss";
-@import "~bootstrap/scss/_variables.scss";
-@import "~bootstrap/scss/mixins";
-  
+@import '~bootstrap/scss/_functions.scss';
+@import '~bootstrap/scss/_variables.scss';
+@import '~bootstrap/scss/mixins';
+
 .container--text {
   $grid-breakpoints: (
     xs: 0,
@@ -30,7 +30,7 @@ export default {
     lg: 650px,
     xl: 650px
   );
-    
+
   @include make-container();
   @include make-container-max-widths($container-max-widths, $grid-breakpoints);
   margin-left: auto;
@@ -39,15 +39,14 @@ export default {
 }
 
 .text-module {
+  font-size: 1.2rem;
 
-    font-size: 1.2rem;
-
-    blockquote {
-        border-left: 1px solid $body-color;
-        font-style: italic;
-        margin: 4% 0;
-        padding-left: 3%;
-        font-size: 1.4rem;
-    }
+  blockquote {
+    border-left: 1px solid $body-color;
+    font-style: italic;
+    margin: 4% 0;
+    padding-left: 3%;
+    font-size: 1.4rem;
+  }
 }
 </style>

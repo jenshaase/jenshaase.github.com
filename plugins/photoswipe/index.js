@@ -1,4 +1,4 @@
-import PhotoSwipe from './plugins/PhotoSwipe'
 import Vue from 'vue'
+import PhotoSwipe from './plugins/PhotoSwipe'
 
-Vue.use(PhotoSwipe);
+Vue.use(PhotoSwipe)

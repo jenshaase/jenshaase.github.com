@@ -1,9 +1,9 @@
 <template>
   <div>
-    <page-header></page-header>
-    <nuxt/>
-    <page-footer></page-footer>
-    <cookie-policy></cookie-policy>
+    <page-header />
+    <nuxt />
+    <page-footer />
+    <cookie-policy />
   </div>
 </template>
 
@@ -13,11 +13,11 @@ import PageFooter from '~/components/PageFooter'
 import CookiePolicy from '~/components/CookiePolicy'
 
 export default {
-    components: {
-        PageHeader,
-        PageFooter,
-        CookiePolicy
-    }
+  components: {
+    PageHeader,
+    PageFooter,
+    CookiePolicy
+  }
 }
 </script>
 

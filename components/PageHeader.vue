@@ -4,26 +4,37 @@
       <nav class="navbar navbar-expand-md navbar-light">
         <router-link to="/" class="navbar-brand d-md-none">
           <svg class="navbar__logo" aria-hidden="true">
-            <use xlink:href="#logo"></use>
+            <use xlink:href="#logo" />
           </svg>
         </router-link>
-        <button class="navbar-toggler" type="button" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" v-on:click="onToggleNavbar">
-          <span class="navbar-toggler-icon"></span>
+        <button
+          class="navbar-toggler"
+          type="button"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+          @click="onToggleNavbar"
+        >
+          <span class="navbar-toggler-icon" />
         </button>
-        <div class="navbar-collapse" v-bind:class="{ 'collapse': collapsed }" id="navbarSupportedContent">
+        <div id="navbarSupportedContent" class="navbar-collapse" :class="{ 'collapse': collapsed }">
           <ul class="nav navbar-nav flex-fill w-100 flex-nowrap">
             <li class="nav-item active">
-              <a class="nav-link" href="/tales">Tales</a>
+              <a class="nav-link" href="/tales">
+                Tales
+              </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/gear">Gear</a>
+              <a class="nav-link" href="/gear">
+                Gear
+              </a>
             </li>
           </ul>
           <ul class="nav navbar-nav flex-fill justify-content-center d-none d-md-flex">
             <li class="nav-item">
               <router-link to="/" class="nav-link">
                 <svg class="navbar__logo" aria-hidden="true">
-                  <use xlink:href="#logo"></use>
+                  <use xlink:href="#logo" />
                 </svg>
               </router-link>
             </li>
@@ -32,7 +43,7 @@
             <li class="nav-item">
               <a class="nav-link" href="http://instagram.com/jenshaase" title="Follow me on Instagram">
                 <svg class="navbar__social" aria-hidden="true">
-                  <use xlink:href="#instagram"></use>
+                  <use xlink:href="#instagram" />
                 </svg>
               </a>
             </li>
@@ -44,12 +55,12 @@
 </template>
 
 <script>
-import logo from "./../assets/svg/logo.svg";
-import instagram from "./../assets/svg/instagram.svg";
+import logo from './../assets/svg/logo.svg'
+import instagram from './../assets/svg/instagram.svg'
 
 export default {
-  name: "PageHeader",
-  data () {
+  name: 'PageHeader',
+  data() {
     return {
       logo: logo,
       instagram: instagram,
@@ -57,11 +68,11 @@ export default {
     }
   },
   methods: {
-    onToggleNavbar () {
-      this.collapsed = !this.collapsed;
+    onToggleNavbar() {
+      this.collapsed = !this.collapsed
     }
   }
-};
+}
 </script>
 
 <style lang="scss" scoped>
@@ -82,7 +93,7 @@ export default {
     .navbar__social {
       width: 25px;
       height: 25px;
-      vertical-align: bottom
+      vertical-align: bottom;
     }
 
     .flex-fill {
@@ -97,5 +108,4 @@ export default {
     }
   }
 }
-
 </style>

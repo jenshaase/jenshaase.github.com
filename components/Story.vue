@@ -1,19 +1,25 @@
 <template>
   <div class="story">
     <a :href="link" class="story__link">
-      <aspect-image :src="image" :ratioWidth="16" :ratioHeight="9" :enlarge="false" :zoomOnHover="true" />
-      <h3 class="story__headline">{{ headline }}</h3>
-      <div class="story__teaser">{{ teaser }}</div>
-      <div class="story__read-more">Read more</div>
+      <aspect-image :src="image" :ratio-width="16" :ratio-height="9" :enlarge="false" :zoom-on-hover="true" />
+      <h3 class="story__headline">
+        {{ headline }}
+      </h3>
+      <div class="story__teaser">
+        {{ teaser }}
+      </div>
+      <div class="story__read-more">
+        Read more
+      </div>
     </a>
   </div>
 </template>
 
 <script>
-import AspectImage from "~/components/AspectImage.vue";
+import AspectImage from '~/components/AspectImage.vue'
 
 export default {
-  name: "Story",
+  name: 'Story',
   components: {
     AspectImage
   },
@@ -35,24 +41,24 @@ export default {
       required: true
     }
   }
-};
+}
 </script>
 
 <style lang="scss" scoped>
-@import "~assets/scss/variables";
-@import "~bootstrap/scss/_functions.scss";
-@import "~bootstrap/scss/_variables.scss";
-@import "~bootstrap/scss/mixins";
+@import '~assets/scss/variables';
+@import '~bootstrap/scss/_functions.scss';
+@import '~bootstrap/scss/_variables.scss';
+@import '~bootstrap/scss/mixins';
 
 .story {
   margin-bottom: 2em;
 
   .story__link {
     text-decoration: none;
-    
+
     .story__headline {
       color: $body-color;
-      margin-top: .2em;
+      margin-top: 0.2em;
     }
 
     .story__teaser {
@@ -68,7 +74,6 @@ export default {
         content: '\2192';
         margin-left: 10px;
         display: inline-block;
-    
       }
     }
 
