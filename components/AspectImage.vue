@@ -2,18 +2,18 @@
   <figure class="image-aspect-ratio" :class="{ 'image-aspect-ratio--zoom-on-hover': zoomOnHover }" :style="ratioPadding" itemscope itemtype="http://schema.org/ImageObject">
     <img
       v-if="isImageUrl" 
-      class="preview-img-item"
-      :src="src" 
+      class="preview-img-item lazyload"
+      :data-src="src" 
       itemprop="thumbnail"
       :alt="title" 
       v-on="enlarge ? { click: () => $photoswipe.open(photoswipeGroup, photoswipeIndex) } : {}"
     >
     <img
       v-else 
-      class="preview-img-item"
+      class="preview-img-item lazyload"
       :src="src.placeholder" 
-      :srcSet="srcSet" 
-      :sizes="sizes"
+      :data-srcSet="srcSet" 
+      :data-sizes="sizes"
       itemprop="thumbnail"
       :alt="title" 
       v-on="enlarge ? { click: () => $photoswipe.open(photoswipeGroup, photoswipeIndex) } : {}"

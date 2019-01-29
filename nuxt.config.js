@@ -112,7 +112,8 @@ module.exports = {
 
   plugins: [
     { src: '~/plugins/photoswipe', ssr: false },
-    { src: '~plugins/ga.js', ssr: false }
+    { src: '~plugins/ga.js', ssr: false },
+    { src: '~plugins/lazysizes.js', ssr: false }
   ],
 
   sitemap: {
