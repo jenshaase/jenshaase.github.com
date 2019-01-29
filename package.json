@@ -14,10 +14,11 @@
     "deploy": "npm run generate && ./node_modules/imagemin-cli/cli.js --plugin=mozjpeg dist/_nuxt/img/* --out-dir=dist/_nuxt/img && ./node_modules/push-dir/bin/push-dir.js --dir=dist --branch=master"
   },
   "dependencies": {
-    "nuxt": "^2.3.4",
     "@nuxtjs/axios": "^5.3.6",
+    "@nuxtjs/sitemap": "^0.2.0",
     "bootstrap": "^4.0.0",
     "mapbox-gl": "^0.52.0",
+    "nuxt": "^2.3.4",
     "photoswipe": "^4.1.2"
   },
   "devDependencies": {

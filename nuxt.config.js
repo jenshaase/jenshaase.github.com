@@ -30,7 +30,8 @@ module.exports = {
   */
   modules: [
     // Doc: https://axios.nuxtjs.org/usage
-    '@nuxtjs/axios'
+    '@nuxtjs/axios',
+    '@nuxtjs/sitemap'
   ],
 
   /*
@@ -112,5 +113,11 @@ module.exports = {
   plugins: [
     { src: '~/plugins/photoswipe', ssr: false },
     { src: '~plugins/ga.js', ssr: false }
-  ]
+  ],
+
+  sitemap: {
+    generate: true,
+    gzip: false,
+    hostname: 'https://jenshaase.com'
+  },
 }
