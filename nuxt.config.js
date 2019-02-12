@@ -119,6 +119,9 @@ module.exports = {
   sitemap: {
     generate: true,
     gzip: false,
-    hostname: 'https://jenshaase.com'
+    hostname: 'https://jenshaase.com',
+    filter ({ routes }) {
+      return routes.map(route => route.url = `${route.url}/`)
+    }
   },
 }
