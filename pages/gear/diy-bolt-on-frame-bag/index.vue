@@ -133,10 +133,21 @@
     <article-header title="Cut the triangles and the panels" type="h2" />
 
     <text-module>
+      <p>Using our cardboard and a sketch we can now cut the triangle and panels. To cut the triangle we place the cardboard on the fabric and transfer the form on the 
+        fabric with one centimeter of seam allowence. If you have enough fabric you can fold it and cut both triangles at once.</p>
+
+      <p>To cut the panels, we first have to determine with width of the final bag. If we make the bag to wide, there will be a risk of constance 
+        knee rubbing. If we make it to small the is not enough pace to put in our material</p>
+      <p>To get the optimal wide of the bag, I first measured my knee distance while sitting on the bike. I measured a knee distance of 7 centimeter. 
+        Therefore a choose to have a wide of 5.5 centimeter. Adding a seam allowence of 1 centimeter on each side the final width of the panel 
+        is 7.5 centimeter. Additionally I added 5 "safty" centimeters on each side of the panel. This can be cut later easily. The final measurements of my bag are:</p>
       <ul>
-        <li>Seam allowence = 1cm</li>
-        <li>Discuss panels</li>
+        <li>Panel A: ...</li>
+        <li>Panel B: ...</li>
+        <li>Panel C: ...</li>
       </ul>
+      <p>Each panel has to be cutted two times. For the first we will use Cordura 1000d and for the second we will use Cordura 500d. In the next step
+        we will sew both panels together and put the plastic stiffer between them.</p>
     </text-module>
 
     <image-module>
@@ -148,6 +159,10 @@
         <image-module-image src="https://via.placeholder.com/500?text=Panels" :ratio-width="16" :ratio-height="9" />
       </image-module-row>
     </image-module>
+
+    <article-header title="Make the zipper and triangles" type="h2" />
+
+    <article-header title="Sew the panels" type="h2" />
 
     <article-header title="FAQ" subtitle="Question I asked myself during the process" type="h2" />
 
