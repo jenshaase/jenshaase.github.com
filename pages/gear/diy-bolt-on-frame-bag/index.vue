@@ -179,6 +179,10 @@
         <li>Länge 2: 23.5cm => 23.5cm - 4cm = 19.5cm</li>
       </ul>
 
+      <p>
+        Reißverschlussenden: Breite = Breite von RV (3cm), Länge grob bemessen (10cm). Überstehendes kann man später abschneiden
+      </p>
+
     </text-module>
 
     <article-header title="Make the compartment divider" type="h2" />
