@@ -71,11 +71,22 @@ module.exports = {
 
       config.module.rules.push({
         test: /\.svg$/,
+        include: /assets\/svg/,
         loader: 'svg-sprite-loader',
         options: {
           extract: false,
           runtimeCompat: true,
           esModule: false
+        }
+      })
+
+      config.module.rules.push({
+        test: /\.(svg)$/,
+        exclude: /assets\/svg/,
+        loader: 'url-loader',
+        query: {
+          limit: 1000, // 1KO
+          name: 'img/[name].[hash:7].[ext]'
         }
       })
 

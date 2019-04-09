@@ -71,7 +71,7 @@
 
     <article-header title="Tools" subtitle="Required tool to make this frame bag" type="h2" />
 
-    <full-image-module src="https://via.placeholder.com/500?text=Picture of all tools on cutting board" :ratio-width="16" :ratio-height="9" />
+    <full-image-module :src="require('./img/frame-bag-tools.jpg')" :ratio-width="16" :ratio-height="9" />
 
     <text-module>
       <p>
@@ -93,7 +93,7 @@
 
     <article-header title="Material" subtitle="Required material to make this frame bag" type="h2" />
 
-    <full-image-module src="https://via.placeholder.com/500?text=picture of all material on cutting board" :ratio-width="16" :ratio-height="9" />
+    <full-image-module :src="require('./img/frame-bag-material.jpg')" :ratio-width="16" :ratio-height="9" />
 
     <text-module>
       <ul>
@@ -116,53 +116,116 @@
 
     <article-header title="Make a template" subtitle="Use a cardboard to create a template of your inner frame triangle" type="h2" />
 
-    <full-image-module src="https://via.placeholder.com/500?text=finished cardboard template" :ratio-width="16" :ratio-height="9" />
+    <full-image-module :src="require('./img/frame-bag-cardboard-template.jpg')" :ratio-width="16" :ratio-height="9" />
 
     <text-module>
       <p>
         The first to build a frame bag is to make a template of your inner frame triangle. Therefore, you can use a cardboard or a large poster.
-        Mark all details of your frame, bottle cage mounts, logs and cable routing holes. 
+        Mark all details of your frame, bottle cage mounts, logs, and cable routing holes. 
         Here's a <a href="https://vimeo.com/36255331">How to make a template video</a> that explains the process in detail.
       </p>
 
       <p>
-        Next, measure your the length of your template. I always tend to make a paper sketch of the triangle and add the measures.
+        Next, measure the length of your template. I always tend to make a paper sketch of the triangle and add the measures.
+        This sketch contains the length of each side and the positions of the zippers. Additionally, I put the measurements for the hydration port.
       </p>
     </text-module>
+
+    <div class="container module full-image-module">
+      <img :src="require('./img/frame-bag-sketch.svg')" style="width:100%" />
+    </div>
 
     <article-header title="Cut the triangles and the panels" type="h2" />
 
     <text-module>
       <p>Using our cardboard and a sketch we can now cut the triangle and panels. To cut the triangle we place the cardboard on the fabric and transfer the form on the 
-        fabric with one centimeter of seam allowence. If you have enough fabric you can fold it and cut both triangles at once.</p>
+        fabric with one centimeter of seam allowance. If you have enough fabric you can fold it and cut both triangles at once.</p>
 
-      <p>To cut the panels, we first have to determine with width of the final bag. If we make the bag to wide, there will be a risk of constance 
-        knee rubbing. If we make it to small the is not enough pace to put in our material</p>
-      <p>To get the optimal wide of the bag, I first measured my knee distance while sitting on the bike. I measured a knee distance of 7 centimeter. 
-        Therefore a choose to have a wide of 5.5 centimeter. Adding a seam allowence of 1 centimeter on each side the final width of the panel 
-        is 7.5 centimeter. Additionally I added 5 "safty" centimeters on each side of the panel. This can be cut later easily. The final measurements of my bag are:</p>
+      <p>To cut the panels, we first have to determine the width of the final bag. If we make the bag too wide, there will be a risk of constant 
+        knee rubbing. If we make it too small the is not enough place to put in stuff.</p>
+      <p>To get the optimal wide of the bag, I first measured my knee distance while sitting on the bike. I measured a knee distance of seven centimeters. 
+        Therefore, I choose to have a wide of 5.5 centimeters. Adding a seam allowance of 1 centimeter on each side the final width of the panel 
+        is 7.5 centimeter. Additionally, I added five "safety" centimeters on each side of the panel. This can be cut later easily. The final measurements of my bag are:</p>
       <ul>
-        <li>Panel A: ...</li>
-        <li>Panel B: ...</li>
-        <li>Panel C: ...</li>
+        <li><strong>Panel 1</strong> consists of A-Short, B and C (see sketch). The total length of these parts is 10cm + 55cm + 5cm = 70cm. Adding 5cm safeness the total size is <strong>80cm x 7.5cm</strong>.</li>
+        <li><strong>Panel 2</strong> is equal to side D in the sketch. Therefore I need to cut a panel of <strong>38cm x 7.5cm</strong>.</li>
+        <li><strong>Panel 3</strong> is equal to side A-Long in the sketch, which yields to a size of <strong>55cm x 7.5cm</strong></li>
       </ul>
-      <p>Each panel has to be cutted two times. For the first we will use Cordura 1000d and for the second we will use Cordura 500d. In the next step
+      <p>Each panel has to be cut two times. The first is cut out of Cordura 1000d and the second out of Cordura 500d. In the next step,
         we will sew both panels together and put the plastic stiffer between them.</p>
     </text-module>
 
     <image-module>
       <image-module-row>
-        <image-module-image src="https://via.placeholder.com/500?text=2D sketch of panels" :ratio-width="16" :ratio-height="9" />
-      </image-module-row>
-      <image-module-row>
-        <image-module-image src="https://via.placeholder.com/500?text=Triangle with Cardboard" :ratio-width="16" :ratio-height="9" />
-        <image-module-image src="https://via.placeholder.com/500?text=Panels" :ratio-width="16" :ratio-height="9" />
+        <image-module-image :src="require('./img/frame-bag-cutting-the-template.jpg')" :ratio-width="16" :ratio-height="9" />
+        <image-module-image :src="require('./img/frame-bag-cutted-panels.jpg')" :ratio-width="16" :ratio-height="9" />
       </image-module-row>
     </image-module>
 
-    <article-header title="Make the zipper and triangles" type="h2" />
+    <article-header title="Make the zippers on the drive side triangle" type="h2" />
+
+    <text-module>
+      <p>After cutting the panels and triangle we will now prepare the triangles. On the drive side triangle we will add two zippers that allow us 
+        to open the frame bag.</p>
+
+      <p>First me make a two cuts in our drive side triangle. One cut for the to zipper and on cut for the second zipper. But don't forget that we added one centimeter of seam allowance.
+        Therefore, we need to make the first cut at 18cm and the second cut at 3.5cm from the top.
+        (Since I measured the distance of the zipper from the top of the bag I cut the second zipper first and than the first zipper.)</p>
+
+      <p>On our template we now measure the length of the zippers. For the final zipper size we will remove 2 cm on each side. (Reißverschlusslänge: Gemessene Länge - 4cm)</p>
+
+      <ul>
+        <li>Länge 1: 46cm => 46cm - 4cm = 42cm</li>
+        <li>Länge 2: 23.5cm => 23.5cm - 4cm = 19.5cm</li>
+      </ul>
+
+    </text-module>
+
+    <article-header title="Make the compartment divider" type="h2" />
+
+    <text-module>
+      <p>Make divider first, because they need to be sewn together with the inner pocket</p>
+
+      <p>Länge des Außenteil == Länge des 2. Reißverschlusses auf Template: 23.5cm</p>
+      <p>Breite: 5.5 cm (Breite des Bags) + 1.5 cm zum annähen = 7cm</p>
+      <p>2x schneiden</p>
+    </text-module>
+
+    <article-header title="Make the inner pocket on the non drive side triangle" type="h2" />
+
+    <text-module>
+      <p>Inner pocket: Platz nach oben 6cm frei lassen. Unteres Ende am Reißverschluss 2. => Höhe der Tasche 17cm - 6cm = 11cm</p>
+      <p>Maße für den Stoffe:</p>
+      <ul>
+        <li>Höhe: 11cm + 1cm Nahtzugabe = 12cm </li>
+        <li>Länge: Länge von RV1 auf Template + 2cm Nahtzugabe = 46cm + 2 = 48cm</li>
+        <li>Überstehendes Material nach dem Zusammennähen abschneiden</li>
+      </ul>
+
+      <p>Next: Add 'Laschen'. Länge der Laschen: 4cm + 2x1cm Nahtzugabe = 6cm</p>
+      <p>Klettverschluss</p>
+    </text-module>
 
     <article-header title="Sew the panels" type="h2" />
+
+    <text-module>
+      <p>Start with panel 2 => easiest. Just sew together</p>
+      <p>Next: panel 1 => Sew together. Add a some twill webbing at one edge (hydration hose)</p>
+      <p>Next: panel 3 => On inner side add some some wedding, leave space for velcro. Next sew together. Next: Add twill webbing. </p>
+    </text-module>
+
+    <article-header title="Create the stiffers" type="h2" />
+
+    <text-module>
+      <p>Breite: 7.5cm - (2x 1.5cm) = 4.5 cm</p>
+      <p>Länge: Außmessen</p>
+    </text-module>
+
+    <article-header title="Sew the bags inside out" type="h2" />
+
+    <text-module>
+      <p>TODO</p>
+    </text-module>
 
     <article-header title="FAQ" subtitle="Question I asked myself during the process" type="h2" />
 
