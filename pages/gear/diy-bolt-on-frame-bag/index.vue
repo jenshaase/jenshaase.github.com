@@ -241,6 +241,43 @@
       </ul>
     </text-module>
 
+
+    <article-header title="Measurements and Cuttings" type="h2" />
+
+
+    <text-module>
+      <p>Measeruments</p>
+      <ul>
+        <li>Top Tube Length (A): 50cm</li>
+        <li>Seat Tube Length (D): 28cm</li>
+        <li>Down Tube Length (B): 55cm</li>
+        <li>Connection Seat Tube Length to Down Tube Length (C): 5cm</li>
+        <li>Zipper 1 Length (Zip1): 46cm</li>
+        <li>Zipper 1 Distance from Top (Zip1-Top): 2.5cm</li>
+        <li>Zipper 2 Length (Zip2): 23.5cm</li>
+        <li>Zipper 2 Distance from Top (Zip2-Top): 17cm</li>
+        <li>Bag Width (W): 5.5cm</li>
+        <li>Seam allowance (S): 1cm</li>
+        <li>Width of Zipper: (WZ): 3cm</li>
+      </ul>
+
+      <p>Cuttings</p>
+      <ul>
+        <li>Panel 1: Length: A-Short+B+C+10cm = 80cm, Width: W+2xS = 7.5cm</li>
+        <li>Panel 2: Length: D+10cm = 38cm, Width: W+2xS = 7.5cm</li>
+        <li>Panel 3: Length: A-Long+10cm = 55cm, Width: W+2xS = 7.5cm</li>
+        <li>Triangle Drive Side: Size of Cutting Board with seam allowance</li>
+        <li>Triangle Drive Side: Size of Cutting Board with seam allowance</li>
+        <li>Inner Pocket: Height: Zip2-Top-6cm+S = 12cm: Width: Zip1+2xS = 48cm</li>
+        <li>Divider1: Height: W+1.5*S = 7cm, Width:  Zip2 = 23.5cm</li>
+        <li>Divider2: Height: W+1.5*S = 7cm, Width:  Zip2 = 23.5cm</li>
+        <li>Zipper Extensions: Height: WZ = 3cm, Width: 10cm</li>
+        <li>Zip2 in Triangle Drive Side: Distance from Top: Zip2-Top+S = 18cm</li>
+        <li>Zip1 in Triangle Drive Side: Distance from Top: Zip1-Top+S = 3.5cm</li>
+      </ul>
+    </text-module>
+
+
   </div>
 </template>
 
