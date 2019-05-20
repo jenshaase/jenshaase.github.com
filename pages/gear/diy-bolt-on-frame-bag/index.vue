@@ -168,32 +168,50 @@
       <p>After cutting the panels and triangle we will now prepare the triangles. On the drive side triangle we will add two zippers that allow us 
         to open the frame bag.</p>
 
-      <p>First me make a two cuts in our drive side triangle. One cut for the to zipper and on cut for the second zipper. But don't forget that we added one centimeter of seam allowance.
-        Therefore, we need to make the first cut at 18cm and the second cut at 3.5cm from the top.
-        (Since I measured the distance of the zipper from the top of the bag I cut the second zipper first and than the first zipper.)</p>
+      <p>First we need make two cuts on our drive side triangle. One cut for the upper zipper and one cut for the lower zipper. But don't forget that we added one centimeter of seam allowance to the cutting line.
+        I made my first cut at 18cm from the top and the second cut at 3.5cm from the top.
+        Since I measured the distance of the zipper from the top of the bag I cut the second zipper first and than the first zipper.</p>
 
-      <p>On our template we now measure the length of the zippers. For the final zipper size we will remove 2 cm on each side. (Reißverschlusslänge: Gemessene Länge - 4cm)</p>
+      <p>On our template we now measure the length of the zippers. For the final zipper size we will remove 2 cm on each side.
+        Hence, our upper zipper has a length of 42cm (46cm - 2 x 2cm) and the lower zipper has the length of 19.5cm (23.5cm - 2 x 2cm).</p>
 
-      <ul>
-        <li>Länge 1: 46cm => 46cm - 4cm = 42cm</li>
-        <li>Länge 2: 23.5cm => 23.5cm - 4cm = 19.5cm</li>
-      </ul>
+      <p>Next, we need to add the zip slider to the zipper. This is at little bit tricky the first time but the second zipper will be easier :)</p>
 
-      <p>
-        Reißverschlussenden: Breite = Breite von RV (3cm), Länge grob bemessen (10cm). Überstehendes kann man später abschneiden
+      <p>Finally, we need to add some Cordura at both ends of each zipper. 
+        Therefore, we will cut 4 pieces of material. Each with size of 10cm x 3cm. 
+        (Note: 3cm is equal the witdh of the zipper, 10cm is more or less random. We can cut the rest of the material later)
+        The material is then sewed two times to zipper. The second stitch is not required, but in case on stitch fails, the other is there as a backup.
       </p>
 
     </text-module>
 
+    <image-module>
+      <image-module-row>
+        <image-module-image :src="require('./img/frame-bag-zipper-1.jpg')" :ratio-width="16" :ratio-height="9" />
+        <image-module-image :src="require('./img/frame-bag-zipper-2.jpg')" :ratio-width="16" :ratio-height="9" />
+        <image-module-image :src="require('./img/frame-bag-zipper-3.jpg')" :ratio-width="16" :ratio-height="9" />
+      </image-module-row>
+      <image-module-row>
+        <image-module-image :src="require('./img/frame-bag-zipper-4.jpg')" :ratio-width="16" :ratio-height="9" />
+        <image-module-image :src="require('./img/frame-bag-zipper-5.jpg')" :ratio-width="16" :ratio-height="9" />
+      </image-module-row>
+    </image-module>
+
     <article-header title="Make the compartment divider" type="h2" />
 
     <text-module>
-      <p>Make divider first, because they need to be sewn together with the inner pocket</p>
-
-      <p>Länge des Außenteil == Länge des 2. Reißverschlusses auf Template: 23.5cm</p>
-      <p>Breite: 5.5 cm (Breite des Bags) + 1.5 cm zum annähen = 7cm</p>
-      <p>2x schneiden</p>
+      <p>Next we make the compartment divider. These two pieces are very easy. First we need to cut two pieces of Cordura 500den.
+        The length of each piece is equal to the length of the lower zipper (23.5cm). For the width we use the width of the final bag and 1.5cm (hence 7cm).
+        Additionally, we need one piece of Hooktape (23.5cm long) and one piece of Looptable (23.5cm) long. 
+        Now, we simple sew the hooktape and the looptape on the material.</p>
     </text-module>
+
+    <image-module>
+      <image-module-row>
+        <image-module-image :src="require('./img/frame-bag-divider-1.jpg')" :ratio-width="4" :ratio-height="3" />
+        <image-module-image :src="require('./img/frame-bag-divider-2.jpg')" :ratio-width="4" :ratio-height="3" />
+      </image-module-row>
+    </image-module>
 
     <article-header title="Make the inner pocket on the non drive side triangle" type="h2" />
 
@@ -210,6 +228,12 @@
       <p>Klettverschluss</p>
     </text-module>
 
+    <image-module>
+      <image-module-row>
+        <image-module-image :src="require('./img/frame-bag-inner-pocket.jpg')" :ratio-width="16" :ratio-height="9" />
+      </image-module-row>
+    </image-module>
+
     <article-header title="Sew the panels" type="h2" />
 
     <text-module>
@@ -217,6 +241,40 @@
       <p>Next: panel 1 => Sew together. Add a some twill webbing at one edge (hydration hose)</p>
       <p>Next: panel 3 => On inner side add some some wedding, leave space for velcro. Next sew together. Next: Add twill webbing. </p>
     </text-module>
+
+    <image-module>
+      <image-module-row>
+        <image-module-image :src="require('./img/frame-bag-panel-3-1.jpg')" :ratio-width="16" :ratio-height="9" />
+      </image-module-row>
+      <image-module-row>
+        <image-module-image :src="require('./img/frame-bag-panel-3-2.jpg')" :ratio-width="3" :ratio-height="4" />
+        <image-module-image :src="require('./img/frame-bag-panel-3-3.jpg')" :ratio-width="3" :ratio-height="4" />
+      </image-module-row>
+      <image-module-row>
+        <image-module-image :src="require('./img/frame-bag-panel-3-4.jpg')" :ratio-width="16" :ratio-height="9" />
+      </image-module-row>
+    </image-module>
+
+
+    <image-module>
+      <image-module-row>
+        <image-module-image :src="require('./img/frame-bag-drive-side-1.jpg')" :ratio-width="16" :ratio-height="9" />
+        <image-module-image :src="require('./img/frame-bag-drive-side-2.jpg')" :ratio-width="16" :ratio-height="9" />
+        <image-module-image :src="require('./img/frame-bag-drive-side-3.jpg')" :ratio-width="16" :ratio-height="9" />
+      </image-module-row>
+      <image-module-row>
+        <image-module-image :src="require('./img/frame-bag-drive-side-4.jpg')" :ratio-width="16" :ratio-height="9" />
+        <image-module-image :src="require('./img/frame-bag-drive-side-5.jpg')" :ratio-width="16" :ratio-height="9" />
+      </image-module-row>
+    </image-module>
+
+
+    <image-module>
+      <image-module-row>
+        <image-module-image :src="require('./img/frame-bag-non-drive-side-1.jpg')" :ratio-width="16" :ratio-height="9" />
+        <image-module-image :src="require('./img/frame-bag-non-drive-side-2.jpg')" :ratio-width="16" :ratio-height="9" />
+      </image-module-row>
+    </image-module>
 
     <article-header title="Create the stiffers" type="h2" />
 
@@ -230,6 +288,14 @@
     <text-module>
       <p>TODO</p>
     </text-module>
+
+    <image-module>
+      <image-module-row>
+        <image-module-image :src="require('./img/frame-bag-sew-together-1.jpg')" :ratio-width="16" :ratio-height="9" />
+        <image-module-image :src="require('./img/frame-bag-sew-together-2.jpg')" :ratio-width="16" :ratio-height="9" />
+        <image-module-image :src="require('./img/frame-bag-sew-together-3.jpg')" :ratio-width="16" :ratio-height="9" />
+      </image-module-row>
+    </image-module>
 
     <article-header title="FAQ" subtitle="Question I asked myself during the process" type="h2" />
 
