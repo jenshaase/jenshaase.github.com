@@ -8,8 +8,14 @@
     <div class="module container">
       <div class="row">
         <div class="col-md-5">
+          <story link="/tales/a-cross-the-3-2019" :image="require('./a-cross-the-3-2019/img/bikepacking-jens-haase.jpg')" headline="A Cross the 3" teaser="My first bikepacking adventure" />
+        </div>
+
+        <div class="col-md-5 offset-md-2">
           <story link="/tales/wild-atlantic-way" :image="require('./wild-atlantic-way/img/valentia-island-2.jpg')" headline="Wild Atlantic Way" teaser="Two weeks of cycling along the Irish coastline" />
         </div>
+
+        <div class="w-100"></div>
         <!--<div class="col-md-5 offset-md-2">
           <story link="/tales/wild-atlantic-way" image="https://via.placeholder.com/500" headline="Wild Atlantic Way" teaser="Two weeks of cycling along the Irish coastline" />
         </div>
