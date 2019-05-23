@@ -40,10 +40,10 @@
         Afterwards, 30 or 40 kilometers further, the climbs got steeper and with every new climb the groups got seperated into even smaller groups, forcing everyone to focus on their own speed. While I kept the power very low on these straightforward climbs I pushed a little bit more on the steeper climbs. This increased my position in the field and I could leave some of the groups behind me.
       </p>
       <p>
-        The first checkpoint was at 50km. Until then, I still was surrounded by other riders. After passing that checkpoint, suddenly it got quiet around me. In front of me was nobody and I kept focusing on my own speed. A few kilometers further, on a short downhill section, I saw another participant pushing his bike back on the track. I first thought that he had crashed. I wanted to offer my help, but it turned out that he just missed a turn and then went straight back to the course. After we talked a little bit with each other, we quickly realized that we are on a wavelength and had a similar pace. Perfect match! This rider was Yves. Over the next days, we became a good team and finished this race together.
+        The first checkpoint was at 50km. Until then, I still was surrounded by other riders. After passing that checkpoint, suddenly it got quiet around me. In front of me was nobody and I kept focusing on my own speed. A few kilometers further, on a short downhill section, I saw another participant pushing his bike back on the track. I first thought that he had crashed. I wanted to offer my help, but it turned out that he just missed a turn and then went straight back to the course. After we talked a little bit with each other, we quickly realized that we were on a wavelength and had a similar pace. Perfect match! This rider was Yves. Over the next days, we became a good team and finished this race together.
       </p>
       <p>
-        Fast forward to kilometer 75: We had our first stop for coffee and coke at a small hotel. Just as we sat down at an outside table, Stefan Maertns, the organizer of the event crossed the street with his car and shouted at us that we should not make so many stops. We laughed about that and enjoyed our drinks before we continued the race.
+        Fast forward to kilometer 75: We had our first stop for coffee and coke at a small hotel. Just as we sat down at an outside table, Stefan Maertens, the organizer of the event crossed the street with his car and shouted at us that we should not make so many stops. We laughed about that and enjoyed our drinks before we continued the race.
       </p>
       <p>
         A few more climbs and downhills later &ndash; the sun was nearly set &ndash; we decided to stop in Schleiden to have a proper dinner. However, we didn't reach Schleiden before 9:30 pm because some hills were really challenging. We found an open bar and asked for food. First response: Kitchen is already closed! So, here we are, after hours of biking and hungry as the wolves hoping for food. But luckily they offered us "Currywurst" or a "Strammen Max". One dish wouldn‘t be enough in our state, so we ordered both dishes &ndash; for both us. You gotta eat for high performance!
@@ -62,7 +62,7 @@
 
     <sidenote-module title="Sleeping during a bikepacking race">
       <p>
-        Something trivial as sleeping is challenging during a bikepacking race. The time you get off your bike and start sleeping is quite short. While the body can make the switch very fast &ndash; the brain needs more time. Therefore, my sleep was less restorative than usual. My thougths kept spinning about what I have accomplished during the day and what I will experiencing the next day. In my dreams, I was still checking my Garmin for the next turn or drinking some more water to stay hydrated. For me a six hour sleep felt like I only had two hours of relaxing sleep and the rest was something in between.
+        Something trivial as sleeping is challenging during a bikepacking race. The time you get off your bike and start sleeping is quite short. While the body can make the switch very fast &ndash; the brain needs more time. Therefore, my sleep was less restorative than usual. My thougths kept spinning about what I had accomplished during the day and what I would be experiencing the next day. In my dreams, I was still checking my Garmin for the next turn or drinking some more water to stay hydrated. For me a six hour sleep felt like I only had two hours of relaxing sleep and the rest was something in between.
       </p>
     </sidenote-module>
 
@@ -70,11 +70,11 @@
 
     <text-module>
       <p>
-        In the morning, we got up at 5 am packed our staff and left the hotel a few minutes before sunrise. We went directly to the gas station of Schleiden to have the first breakfast and get some food for the day. A few minutes later we were back in the forest and climbed the next hills. During this morning we came across some other riders that slept around Schleiden. However, it didn't take long time and we were back alone, meaning: nobody in front of us. Though, there was a lot of wildlife taking place in this early hours. We crossed the path of some dears, rode along with a group of wild boars and observed some birds flying through the forest.
+        In the morning, we got up at 5 am packed our stuff and left the hotel a few minutes before sunrise. We went directly to the gas station of Schleiden to have the first breakfast and get some food for the day. A few minutes later we were back in the forest and climbed the next hills. During this morning we came across some other riders that slept around Schleiden. However, it didn't take long time and we were back alone, meaning: nobody in front of us. Though, there was a lot of wildlife taking place in this early hours. We crossed the path of some deers, rode along with a group of wild boars and observed some birds flying through the forest.
       </p>
 
       <p>
-        A little while later we stopped at a small bakery to take our second breakfast. Once again, we were lucky: this bakery is only open in three days a week. Stefan Maertns later told us that he has never been in this bakery because it was closed every time he passed it. Besides us, there were a few other guests. It seemed, they know each other very well. The nice old lady in the bakery told us that she has a hard time to keep this bakery running. She made us aware of the remoteness of this area. It‘s exciting, not just the biking, but also get to know different people of different places. Each story of the people I met was unique.
+        A little while later we stopped at a small bakery to take our second breakfast. Once again, we were lucky: this bakery is only open in three days a week. Stefan Maertens later told us that he had never been in this bakery because it was closed every time he passed it. Besides us, there were a few other guests. It seemed, they know each other very well. The nice old lady in the bakery told us that she has a hard time to keep this bakery running. She made us aware of the remoteness of this area. It‘s exciting, not just the biking, but also get to know different people of different places. Each story of the people I met was unique.
       </p>
 
       <p>
@@ -116,7 +116,7 @@
 
     <text-module>
       <p>
-        The final countdown! Again, we got up a 5 am in the morning. When I looked outside the window I noticed snow on the roofs of the other houses. While it was still dark, we didn't recognize how much snow fell over night. But after we got back on our bikes and faced the first climbs in the dawn, we noticed ten centimeters of fresh, powdery snow. We felt like little children on Christmas eve and were close to sing Christmas songs. It was wonderful, but also a very unexpected scene: Snow in May. Even so, we had much fun with the white powder, still, our progress to the finish line was very slow. We needed a lot to hike-a-bike because the snow was quite slippery. Additionally, a lot of trees blocked our ways, because their leafy branches were pushed down by the snow. Sometimes we wished for a good, old machete to clear the way in front of us.
+        The final countdown! Again, we got up a 5 am in the morning. When I looked outside the window I noticed snow on the roofs of the other houses. While it was still dark, we didn't recognize how much snow had fallen over night. But after we got back on our bikes and faced the first climbs in the dawn, we noticed ten centimeters of fresh, powdery snow. We felt like little children on Christmas eve and were close to sing Christmas songs. It was wonderful, but also a very unexpected scene: Snow in May. Even so, we had much fun with the white powder, still, our progress to the finish line was very slow. We needed a lot to hike-a-bike because the snow was quite slippery. Additionally, a lot of trees blocked our ways, because their leafy branches were pushed down by the snow. Sometimes we wished for a good, old machete to clear the way in front of us.
       </p>
     </text-module>
 
@@ -132,7 +132,7 @@
       </p>
 
       <p>
-        At 4 pm we finally reached the finish line. Three hours after the time limit but still happy that we made it. Even though, we didn't make it in time, I will remember this last day for long period of time. Sun, snow, hail, rain, cold, wet, all in less than 24 hours. It felt like I just went to 4 seasons in one day.
+        At 4 pm we finally reached the finish line. Three hours after the time limit but still happy that we made it. Even though, we didn't make it in time, I will remember this last day for a long time. Sun, snow, hail, rain, cold, wet, all in less than 24 hours. It felt like I just went to 4 seasons in one day.
       </p>
     </text-module>
 
