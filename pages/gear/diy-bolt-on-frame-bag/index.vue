@@ -5,7 +5,7 @@
       :subtitle="subtitle"
     />
 
-    <full-image-module src="https://via.placeholder.com/500?text=Completed Frame Bag on Bike" :ratio-width="16" :ratio-height="9" />
+    <full-image-module :src="require('./img/frame-bag-header.jpg')" :ratio-width="16" :ratio-height="9" />
 
     <text-module>
       <p>{{ description }}</p>
@@ -18,7 +18,7 @@
         <div class="col-md-4">
           <div class="feature">
             <h3>Bolt-On Design</h3>
-            <aspect-image src="https://via.placeholder.com/300"  :ratio-width="16" :ratio-height="9" />
+            <aspect-image :src="require('./img/frame-bag-feature-bolt-on.jpg')"  :ratio-width="16" :ratio-height="9" />
             <div class="feature__content">
               <p>The frame bag will be attached to the water bottle bolts. A plastic stiffer ensures that the bag stays in place.</p>
             </div>
@@ -26,44 +26,37 @@
         </div>
         <div class="col-md-4">
           <h3>Inner pocket</h3>
-          <aspect-image src="https://via.placeholder.com/300"  :ratio-width="16" :ratio-height="9" />
+          <aspect-image :src="require('./img/frame-bag-feature-inner-pocket.jpg')"  :ratio-width="16" :ratio-height="9" />
           <div class="feature__content">
-            <p>An inner pocket allows you to story small item inside the bag</p>
+            <p>An inner pocket allows you to store small items, like battery packs, cables and maps.</p>
           </div>
         </div>
         <div class="col-md-4">
           <h3>Hang loops</h3>
-          <aspect-image src="https://via.placeholder.com/300"  :ratio-width="16" :ratio-height="9" />
+          <aspect-image :src="require('./img/frame-bag-feature-hang-loops.jpg')"  :ratio-width="16" :ratio-height="9" />
           <div class="feature__content">
             <p>Hang loops can be used to wrap tent poles below the top tube of your bike</p>
           </div>
         </div>
         <div class="col-md-4">
           <h3>Hydration port</h3>
-          <aspect-image src="https://via.placeholder.com/300"  :ratio-width="16" :ratio-height="9" />
+          <aspect-image :src="require('./img/frame-bag-feature-hydration-port.jpg')"  :ratio-width="16" :ratio-height="9" />
           <div class="feature__content">
-            <p>TODO</p>
+            <p>The hydration port allows you to store a water bladder inside the bag.</p>
           </div>
         </div>
         <div class="col-md-4">
           <h3>Two compartments</h3>
-          <aspect-image src="https://via.placeholder.com/300"  :ratio-width="16" :ratio-height="9" />
+          <aspect-image :src="require('./img/frame-bag-feature-dual-compartments.jpg')"  :ratio-width="16" :ratio-height="9" />
           <div class="feature__content">
-            <p>TODO</p>
+            <p>Two zippers allow you to access each compartment individually. The compartments are separate by a removable velcro divider.</p>
           </div>
         </div>
         <div class="col-md-4">
           <h3>Lace-up attachment</h3>
-          <aspect-image src="https://via.placeholder.com/300"  :ratio-width="16" :ratio-height="9" />
+          <aspect-image :src="require('./img/frame-bag-feature-lace-up.jpg')"  :ratio-width="16" :ratio-height="9" />
           <div class="feature__content">
-            <p>TODO</p>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <h3>Drainport</h3>
-          <aspect-image src="https://via.placeholder.com/300"  :ratio-width="16" :ratio-height="9" />
-          <div class="feature__content">
-            <p>TODO</p>
+            <p>Lace-up attachment at the top tube to create a solid and distributed frame connection.</p>
           </div>
         </div>
       </div>
@@ -75,8 +68,8 @@
 
     <text-module>
       <p>
-        Not all tool here are absolutly necessary. However, they make your work much easier. 
-        I definitely would recommand sewing clips instead of normal needles because it's not that easy to stitch to Cordura.
+        Not all tools here are absolutly necessary. However, they make your work much easier. 
+        I definitely would recommand sewing clips instead of normal needles because it's not that easy to stitch through Cordura.
       </p>
       <ul>
         <li>Sewing machine</li>
@@ -120,14 +113,14 @@
 
     <text-module>
       <p>
-        The first to build a frame bag is to make a template of your inner frame triangle. Therefore, you can use a cardboard or a large poster.
-        Mark all details of your frame, bottle cage mounts, logs, and cable routing holes. 
-        Here's a <a href="https://vimeo.com/36255331">How to make a template video</a> that explains the process in detail.
+        The first thing you need to do is to make a template of your inner frame triangle. Therefore, you can use a cardboard or a large poster.
+        Mark all details of your frame, like bottle cage mounts, logs, and cable routing holes. 
+        Here is a <a href="https://vimeo.com/36255331">How to make a template</a> video that explains the process in more detail.
       </p>
 
       <p>
-        Next, measure the length of your template. I always tend to make a paper sketch of the triangle and add the measures.
-        This sketch contains the length of each side and the positions of the zippers. Additionally, I put the measurements for the hydration port.
+        Next, you need to measure the length of your template. I always tend to make a paper sketch of the triangle and add the measures to it.
+        This sketch contains the length of each side and the positions of the zippers. Additionally, I put the measurements for the hydration port onto the sketch.
       </p>
     </text-module>
 
@@ -138,21 +131,25 @@
     <article-header title="Cut the triangles and the panels" type="h2" />
 
     <text-module>
-      <p>Using our cardboard and a sketch we can now cut the triangle and panels. To cut the triangle we place the cardboard on the fabric and transfer the form on the 
-        fabric with one centimeter of seam allowance. If you have enough fabric you can fold it and cut both triangles at once.</p>
+      <p>Using your cardboard and the sketch you can now cut the triangle and panels. 
+        Therefore, it is the best to place the cardboard on the fabric and transfer the form onto it with one additional centimeter of seam allowance. 
+        If you have enough fabric you can fold it and cut both triangles at once.</p>
 
-      <p>To cut the panels, we first have to determine the width of the final bag. If we make the bag too wide, there will be a risk of constant 
-        knee rubbing. If we make it too small the is not enough place to put in stuff.</p>
-      <p>To get the optimal wide of the bag, I first measured my knee distance while sitting on the bike. I measured a knee distance of seven centimeters. 
-        Therefore, I choose to have a wide of 5.5 centimeters. Adding a seam allowance of 1 centimeter on each side the final width of the panel 
-        is 7.5 centimeter. Additionally, I added five "safety" centimeters on each side of the panel. This can be cut later easily. The final measurements of my bag are:</p>
+      <p>To cut the panels, you first have to determine the width of the final bag. If you make the bag too wide, there will be a risk of constant 
+        knee rubbing. If you make it too small there is not enough place to put in your stuff.</p>
+      <p>I measured my knee distance while sitting (stationary) on the bike, resulting in a knee distance of seven centimeters.
+        But since I made the experience that my knees tent to go more together when I get tired after a long ride - I choosed to have a wide of 5.5 centimeters.
+        With the addional one centimeter of seam allowence on each side the final width of the panel is 7.5 centimeter.
+      </p>
+      <p>
+        Additionally, I added ten "safety" centimeters to the length of each panel. This can be cutted away later. The final measurements of my bag are:
+      </p>
       <ul>
         <li><strong>Panel 1</strong> consists of A-Short, B and C (see sketch). The total length of these parts is 10cm + 55cm + 5cm = 70cm. Adding 5cm safeness the total size is <strong>80cm x 7.5cm</strong>.</li>
         <li><strong>Panel 2</strong> is equal to side D in the sketch. Therefore I need to cut a panel of <strong>38cm x 7.5cm</strong>.</li>
         <li><strong>Panel 3</strong> is equal to side A-Long in the sketch, which yields to a size of <strong>55cm x 7.5cm</strong></li>
       </ul>
-      <p>Each panel has to be cut two times. The first is cut out of Cordura 1000d and the second out of Cordura 500d. In the next step,
-        we will sew both panels together and put the plastic stiffer between them.</p>
+      <p>Now, you need to cut each panel two times. The first cut is out of Cordura 1000d and the second out of Cordura 500d.</p>
     </text-module>
 
     <image-module>
@@ -165,22 +162,24 @@
     <article-header title="Make the zippers on the drive side triangle" type="h2" />
 
     <text-module>
-      <p>After cutting the panels and triangle we will now prepare the triangles. On the drive side triangle we will add two zippers that allow us 
-        to open the frame bag.</p>
+      <p>After cutting the panels and triangles you now need to prepare the triangle on the drive side by adding two zippers that allow you 
+        to open the bag.</p>
 
-      <p>First we need make two cuts on our drive side triangle. One cut for the upper zipper and one cut for the lower zipper. But don't forget that we added one centimeter of seam allowance to the cutting line.
-        I made my first cut at 18cm from the top and the second cut at 3.5cm from the top.
-        Since I measured the distance of the zipper from the top of the bag I cut the second zipper first and than the first zipper.</p>
+      <p>First, you need make two cuts on our drive side triangle. One cut for the upper zipper and one cut for the lower zipper. 
+        Don't forget that we added one centimeter of seam allowance to the cutting line.
+        On my bag I made my first cut at 18 cm from the top and the second cut at 3.5 cm from the top.
+        Since I measured the distance of the zipper from the top of the bag I cut the second zipper before the first zipper.</p>
 
-      <p>On our template we now measure the length of the zippers. For the final zipper size we will remove 2 cm on each side.
+      <p>On your template you can now measure the length of the zippers. For the final zipper size I recommend to remove 2 cm on each side.
         Hence, our upper zipper has a length of 42cm (46cm - 2 x 2cm) and the lower zipper has the length of 19.5cm (23.5cm - 2 x 2cm).</p>
 
-      <p>Next, we need to add the zip slider to the zipper. This is at little bit tricky the first time but the second zipper will be easier :)</p>
+      <p>Next, you have to add the slider to the zipper. This is at little tricky the first time but the second zipper will be easier :)</p>
 
-      <p>Finally, we need to add some Cordura at both ends of each zipper. 
-        Therefore, we will cut 4 pieces of material. Each with size of 10cm x 3cm. 
+      <p>Finally, you need to add some Cordura at both ends of each zipper. 
+        Therefore, you have to cut 4 pieces of material. Each with size of 10cm x 3cm. 
         (Note: 3cm is equal the witdh of the zipper, 10cm is more or less random. We can cut the rest of the material later)
-        The material is then sewed two times to zipper. The second stitch is not required, but in case on stitch fails, the other is there as a backup.
+        The material then needs to be sewed two times to zipper. The second stitch is not required, but in case if the first stitch fails, 
+        the other is there as a backup.
       </p>
 
     </text-module>
@@ -200,10 +199,12 @@
     <article-header title="Make the compartment divider" type="h2" />
 
     <text-module>
-      <p>Next we make the compartment divider. These two pieces are very easy. First we need to cut two pieces of Cordura 500den.
-        The length of each piece is equal to the length of the lower zipper (23.5cm). For the width we use the width of the final bag and 1.5cm (hence 7cm).
-        Additionally, we need one piece of Hooktape (23.5cm long) and one piece of Looptable (23.5cm) long. 
-        Now, we simple sew the hooktape and the looptape on the material.</p>
+      <p>The next things to do is to make the compartment divider. 
+        The divider consist of two pieces of material with some hocktape on one piece and a some looptable on the other piece.
+        First you need to cut two pieces of Cordura 500den.
+        The length of each piece is equal to the length of the lower zipper (23.5cm). For the width we use the width of the final bag and add 1.5cm for the attachment (Total width: 7cm).
+        Additionally, you need one piece of Hooktape (23.5cm long) and one piece of Looptable (23.5cm) long. 
+        Now, you simple sew the hooktape and the looptape on the material.</p>
     </text-module>
 
     <image-module>
