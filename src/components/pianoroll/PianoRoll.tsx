@@ -231,15 +231,20 @@ export const PianoRoll: React.FC<PianoRollProps> = ({ grid, notes }) => {
         <TableHeader rows={rows} grid={grid} />
       </thead>
       <tbody>
-        {octavesToRender.map((octave) => (
-          <Octave
-            key={octave}
-            octaveNumber={octave}
-            rows={rows}
-            grid={grid}
-            notes={notesIndexedByOctave.get(octave)!}
-          />
-        ))}
+        {octavesToRender.map((octave) => {
+          var notes = notesIndexedByOctave.get(octave);
+          return (
+            notes && (
+              <Octave
+                key={octave}
+                octaveNumber={octave}
+                rows={rows}
+                grid={grid}
+                notes={notes}
+              />
+            )
+          );
+        })}
       </tbody>
     </table>
   );

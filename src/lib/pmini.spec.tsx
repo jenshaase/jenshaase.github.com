@@ -177,6 +177,22 @@ describe("pmini", () => {
           },
         ],
       ],
+      [
+        "c'major^I",
+        [
+          {
+            type: "chord",
+            modifiers: {
+              transposer: ["I"],
+            },
+            children: [
+              { type: "number", value: 0, modifiers: {} },
+              { type: "number", value: 4, modifiers: {} },
+              { type: "number", value: 7, modifiers: {} },
+            ],
+          },
+        ],
+      ],
     ])("parse: %s", (input, result) => {
       expect(parse(tokenize(input))).toStrictEqual(result);
     });

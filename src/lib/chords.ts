@@ -204,7 +204,7 @@ export const invertUp = (chord: number[]): number[] => {
     return chord;
   }
 
-  chord = chord.sort();
+  chord = chord.sort((a, b) => a - b);
 
   return [...chord.slice(1), chord[0] + 12];
 };
@@ -214,7 +214,7 @@ export const invertDown = (chord: number[]): number[] => {
     return chord;
   }
 
-  chord = chord.sort();
+  chord = chord.sort((a, b) => a - b);
   const last = chord.length - 1;
 
   return [chord[last] - 12, ...chord.splice(0, last)];
@@ -225,5 +225,7 @@ export const open = (chord: number[]): number[] => {
     return chord;
   }
 
-  return [chord[0] - 12, chord[1], chord[2] - 12, ...chord.slice(3)].sort();
+  return [chord[0] - 12, chord[1], chord[2] - 12, ...chord.slice(3)].sort(
+    (a, b) => a - b
+  );
 };
